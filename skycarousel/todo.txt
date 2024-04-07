@@ -1,9 +1,0 @@
-NEXT UP
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-Image carousel
-Position and style body elements
-Mobile site
-    hamburger menu - full screen
-    triangle decoration needs to be moved on different resolutions to stay in view
-create logo
-correct broken image links in process sites
