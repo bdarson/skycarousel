@@ -11,6 +11,11 @@
 
 /* GENERAL---------------------------------------------------------------------------------- */
 
+body {
+    max-width:100%;
+    overflow-x:hidden;
+}
+
 h1 {
     font-size: 3em;
 }
@@ -150,7 +155,7 @@ input:checked+label+.slide {
 }
 
 .main-text {
-    width:50em;
+    width:60%;
     color:black;
     float:left;
     margin:4em;
@@ -191,9 +196,22 @@ input:checked+label+.slide {
 
 .ins-img {
     position:absolute;
-    width:33.5em;
-    margin: 4em 0 4em 0;
+    width:25%;
+    margin: 4em 4em 4em 0;
     float:right;
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 1), rgba(0,0,0,.975), rgba(0,0,0,0));
+    z-index:3;
+    right:0;
+}
+
+.blk-bar {
+    position:absolute;
+    background-color: black;
+    height:110%;
+    width:25%;
+    margin: 0 4em 0 0;
+    z-index:1;
+    right:0;
 }
 
 /* END BODY----------------------------------------------------------------------------- */
@@ -201,6 +219,8 @@ input:checked+label+.slide {
 /* FOOTER------------------------------------------------------------------------------- */
 
 .footer {
+    position:absolute;
+    z-index:1000;
     background-color:#2e1b32;
     width:100%;
     height:18em;
